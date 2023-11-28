@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto";
+    font-size: 20px;
+    height: 100vh;
+    background: url(imagenes/fondogrande.jpg) no-repeat center center/cover;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 5%;
+    color: black;
+}
+
+p {
+    text-align: center;
+    color: black;
+}
+
+input {
+    font-size: 25px;
+    width: 100%; 
+}
+
+#btnIngresar,
+#btnIngresar2,
+#txtCorreo,
+#txtContrasenna,
+form #crear {
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%; /* Make the width 100% for responsiveness */
+    margin-left: 0; /* Remove left margin */
+}
+
+#btnIngresar,
+#btnIngresar2 {
+    background-color: rgb(105, 29, 2);
+}
+
+#btnIngresar2 {
+    background-color: rgb(40, 224, 34);
+}
+
+#txtCorreo {
+    background-color: yellow;
+}
+
+#txtContrasenna {
+    background-color: rgb(185, 185, 88);
+}
+
+form #crear {
+    position: absolute;
+    padding: 10px;
+    background-color: rgb(221, 165, 96);
+    width: 80%; /* Make the width 100% for responsiveness */
+    margin-left: 10%; /* Remove left margin */
+}
+
+
+@media only screen and (min-width: 600px) {
+    input {
+        width: 350px; /* Set the width to 350px for screens wider than 600px */
+    }
+
+    #crear {
+        width: 600px; /* Set the width to 600px for screens wider than 600px */
+    }
+}
+
+
